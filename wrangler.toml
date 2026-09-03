@@ -1,0 +1,20 @@
+name = "wekit-read-receipts"
+main = "worker.js"
+compatibility_date = "2026-09-03"
+
+[vars]
+ENABLE_GEO = "1"
+GEO_ALLOW_HTTP = "0"
+PBKDF2_MAX_ITER = "1000000"
+AUDIT_RETENTION_DAYS = "30"
+MESSAGE_QUOTA_FORMULA = "x"
+GEO_QUOTA_FORMULA = "x"
+RETENTION_MONTHS_FORMULA = "x"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wekit-read-receipts"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[triggers]
+crons = ["*/10 * * * *"]
