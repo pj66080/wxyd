@@ -1,10 +1,15 @@
-## 致谢上游作者[烈酒](https://github.com/lie-jiu)
+# 致谢上游作者[烈酒](https://github.com/lie-jiu)
 
 [wekit-read-receipts-server](https://github.com/lie-jiu/wekit-read-receipts-server)
 
 [wekit-read-receipts-cf-workers](https://github.com/lie-jiu/wekit-read-receipts-cf-workers)
 
-# 微信已读服务器端 — Cloudflare Worker 单文件版
+# 效果
+网址:https://wxyd.eu.cc
+邀请码:qwertyuiop
+要使用wxid注册好以后客户端才能连接到服务器
+
+## 微信已读服务器端 — Cloudflare Worker 单文件版
 
 本包把 `wekit-read-receipts-server` 的核心 API / D1 架构迁移为单个 `worker.js`，并参考 `wekit-read-receipts-cf-workers` 的 Worker/D1 方式；Web UI 针对安卓浏览器做了触摸命中区、动态视口、移动端卡片式表格等优化，修改原项目1×1像素点为已读GIF动图。
 
