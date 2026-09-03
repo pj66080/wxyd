@@ -9,7 +9,7 @@
 
 邀请码:qwertyuiop
 
-要使用wxid注册好以后客户端才能连接到服务器
+要使用wxid注册以后客户端才能连接到服务器
 
 ## 微信已读服务器端 — Cloudflare Worker 单文件版
 
