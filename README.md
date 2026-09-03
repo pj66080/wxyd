@@ -1,8 +1,8 @@
-# WeKit Read Receipts — Cloudflare Worker 单文件版
+# 微信已读服务器端 — Cloudflare Worker 单文件版
 
-本包把 `wekit-read-receipts-server` 的核心 API / D1 架构迁移为单个 `worker.js`，并参考 `wekit-read-receipts-cf-workers` 的 Worker/D1 方式；Web UI 针对安卓浏览器做了触摸命中区、动态视口、移动端卡片式表格等优化。
+本包把 `wekit-read-receipts-server` 的核心 API / D1 架构迁移为单个 `worker.js`，并参考 `wekit-read-receipts-cf-workers` 的 Worker/D1 方式；Web UI 针对安卓浏览器做了触摸命中区、动态视口、移动端卡片式表格等优化，修改原项目1×1像素点为已读GIF动图。
 
-## 文件
+## 文件全部由ChatGPT生成
 
 - `worker.js`：唯一 Worker 业务代码，包含 API、认证、管理后台、账户页、仪表盘、已读详情、D1 操作。
 - `schema.sql`：手动创建/初始化 D1 所需 SQL。
