@@ -19,6 +19,18 @@
 
 当前 Worker 不会自动创建 D1。请先在 Cloudflare Dashboard 手动创建 D1，或者使用 Wrangler 创建后再把 `database_id` 填入 `wrangler.toml`。
 
+## 纯网页手动部署教程
+
+1.创建一个D1数据库在控制台粘贴schema.sql全部内容执行
+
+2.创建一个Hello World Workers 把原代码替换成worker.js里的代码
+
+3.绑定D1数据库变量名填DB
+
+4.推荐个域名在国内就可以正常访问了
+
+## 下面内容是ChatGPT生成的部署教程
+
 ### 1. 手动创建 D1
 
 Cloudflare Dashboard → Storage & Databases → D1 SQL databases → Create database。
